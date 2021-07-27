@@ -1,0 +1,11 @@
+.footer {
+  background: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  & img {
+    width: 100px;
+  }
+}

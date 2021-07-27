@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d1d1d1;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.page-link {
+  color: #121619 !important;
+}
+.pagination__item--disabled {
+  color: #6c6e70 !important;
+  border-radius: 15px 0px 0px 15px !important;
+}
+.pagination__item--border-right {
+  border-radius: 0px 15px 15px 0px !important;
+}
+.pagination__item--selected {
+  color: #fff !important;
+  background-color: #222323 !important;
+  border-color: #222323 !important;
+}
